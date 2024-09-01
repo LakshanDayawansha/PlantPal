@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myPlantTasks">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/task_image"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/task_text1"
+            android:layout_width="match_parent"
+            android:text="Watering Date"
+            android:gravity="center"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/task_button1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Add date"/>
+
+        <TextView
+            android:id="@+id/task_text2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Fertilising  Date"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/task_button2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Add date"/>
+
+
+    </LinearLayout>
+</ScrollView>

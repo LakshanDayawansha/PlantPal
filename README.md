@@ -1,4 +1,4 @@
-# Plank Care
+# Plant Care
 
 **Plank Care** is an Android app designed to help busy individuals take care of their plants. By allowing users to create an account and select the plants they own, this app helps ensure that no plant is left behind due to a hectic schedule. Users can track when they last watered and fertilized their plants, and the app sends customized notifications to remind them when it's time to care for their plants again.
 
